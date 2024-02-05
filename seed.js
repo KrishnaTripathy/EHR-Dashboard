@@ -20,7 +20,7 @@ const Patient = mongoose.model('Patient', patientSchema);
 const seedPatients = async (numPatients) => {
   try {
     // Replace 'user_id' with the actual ObjectId of a user from your User collection
-    const userId = '65bdc00018dbc682a09e6719';
+    const userId = '65bd8f00bbae9e04ba81a3d2';
 
     // Generate and insert dummy patient records
     const patients = [];
